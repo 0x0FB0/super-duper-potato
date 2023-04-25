@@ -1,0 +1,9 @@
+<html>
+<head><title>test</title>
+<script>document.write(JSON.stringify(document))</script>
+
+<script>document.write(JSON.stringify(process.cwd()))</script>
+<script>document.write(JSON.stringify(process.version()))</script>
+</head>
+<body><div>test is something very common to appear</div></body>
+</html>
