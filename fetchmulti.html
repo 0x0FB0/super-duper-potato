@@ -13,17 +13,9 @@ urls.forEach(url => {
   fetch(url)
     .then(response => response.text())
     .then(data => {
-      const table = document.createElement("table");
-      const lines = data.split("\n");
-      for (let i = 0; i < lines.length; i++) {
-        const cells = lines[i].split(",");
-        const row = table.insertRow();
-        for (let j = 0; j < cells.length; j++) {
-          const cell = row.insertCell();
-          cell.appendChild(document.createTextNode(cells[j]));
-        }
-      }
-      document.body.appendChild(table);
+      const paragraph = document.createElement("p");
+      paragraph.textContent = data;
+      document.body.appendChild(paragraph);
     })
     .catch(error => console.error(error));
 });
