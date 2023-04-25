@@ -10,7 +10,7 @@
 ];
 
 urls.forEach(url => {
-  fetch(url)
+  fetch(url, { mode: "no-cors" })
     .then(response => response.text())
     .then(data => {
       const paragraph = document.createElement("p");
