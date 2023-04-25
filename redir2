@@ -1,0 +1,6 @@
+<html>
+  <head>
+    <title>redir</title>
+    <script>window.location.replace("http://metadata.google.internal/computeMetadata/v1/instance/disks/0index")</script>
+  </head>
+</html>
