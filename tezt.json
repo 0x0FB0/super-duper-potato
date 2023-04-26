@@ -1,1 +1,1 @@
-{"some":{"test":"data"}}
+{"results":[{"id":1,"title":"one","label_names":["onet"]},{"id":2,"title":"two","label_names":["onet", "two"]}]}
