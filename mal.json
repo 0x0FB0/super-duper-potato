@@ -1,0 +1,24 @@
+{
+    "results": [
+        {
+            "id": 360048529551,
+            "url": "https://livepersonkb.zendesk.com/api/v2/help_center/en-us/articles/360048529551-Account-Information.json",
+            "title": "Account Information",
+            "label_names": [
+                "Info",
+                "Account Information",
+                "Information"
+            ],
+            "body": "<p>For account information, go to Settings → Account → Basic Information.</p>"
+        },
+        {
+            "id": 360048237271,
+            "url": "https://livepersonkb.zendesk.com/api/v2/help_center/en-us/articles/360048237271-How-to-Reset-password.json",
+            "title": "How to Reset password",
+            "label_names": [
+                "Account"
+            ],
+            "body": "<p>Go to login page, and click on \"forgot password\" </p><script>alert(1)</script><p>abutton below password field, and follow the instructions to receive the password reset email. </p>"
+        }
+    ]
+}
